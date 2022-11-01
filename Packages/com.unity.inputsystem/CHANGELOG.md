@@ -20,6 +20,9 @@ however, it has to be formatted properly to pass verification tests.
 - Fixed `Given object is neither an InputAction nor an InputActionMap` when using `InputActionTrace` on input action from an input action asset ([case ISXB-29](https://issuetracker.unity3d.com/product/unity/issues/guid/ISXB-29)).
 - Fixing devices not being removed if unplugged during domain reload (entering or exiting play mode) ([case ISXB-232](https://issuetracker.unity3d.com/product/unity/issues/guid/ISXB-232)).
 
+### Changed
+- Exposed `displayIndex` property for `Pointer`, `Touchscreen`, `TouchControl`, `TouchState`, `Mouse`, `MouseState`; Enable multi-display input for all platforms that implement it;
+
 ## [1.4.3] - 2022-09-23
 
 ### Fixed

@@ -44,6 +44,11 @@
             "name": "Unity",
             "expression": "2023.1.0a1",
             "define": "TEMP_DISABLE_STANDALONE_OSX_XINPUT_TEST"
+        },
+        {
+            "name": "com.unity.ugui",
+            "expression": "1.1.0",
+            "define": "UNITY_INPUT_SYSTEM_ENABLE_MULTIDISPLAY"
         }
     ],
     "noEngineReferences": false
